@@ -19,5 +19,30 @@ if produto_num == 1:
 elif produto_num == 2:
     print("Você escolheu o Expresso Duplo")
     print("Preço: R$10 ")
+elif produto_num == 3:
+    print("Você escolheu o Cappuccino")
+    print("Preço: R$14")
+elif produto_num == 4:
+    print("Você escolheu o Latte")
+    print("Preço: R$16")  
+else:
+    print("Opção invalida")
+
+preco = 0
+
+if produto_num == 1:
+    preco = 7
+elif produto_num == 2:
+    preco = 10
+elif produto_num == 3:
+    preco = 14  
+else:
+    preco = 16  
+
+quantidade = input("Quantidade: ")
+quant_num = int(quantidade)
 
 
+
+total = quant_num * preco
+print(total)
