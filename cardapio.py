@@ -36,9 +36,19 @@ elif produto_num == 4:
     print("Você escolheu o Latte")
     print("Preço: R$16")  
 
-
 quantidade = input("Quantidade: ")
 quant_num = int(quantidade)
+
+#adicionar outro produto
+add_produto = input("Deseja adicionar outro produto? [S/N]\n").upper()
+
+if add_produto == ("S"):
+    print(add_produto)
+
+
+
+
+
 
 total = quant_num * preco
 print("Total: R${} ".format(total))
