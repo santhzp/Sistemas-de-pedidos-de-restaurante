@@ -54,4 +54,7 @@ while add_produto == "S":
 
     total = total + compra_atual
 
-    print("Total: R${:.2f}".format(total))
+print("------------------")
+print("COMPRA FINALIZADA!")
+print("Total do pedido: R${:.2f}".format(total))
+print("------------------")
